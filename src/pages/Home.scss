@@ -17,11 +17,20 @@
         font-family: 'Cormorant Garamond', serif;
         font-size: 5.5rem;
         color: #1a1a1a;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-weight: 500;
         letter-spacing: 3px;
         line-height: 1.2;
         text-transform: uppercase;
+      }
+
+      .location {
+        font-size: 0.95rem;
+        color: #666;
+        font-style: italic;
+        font-weight: 300;
+        margin-bottom: 3rem;
+        letter-spacing: 0.5px;
       }
 
       .cta-button {
@@ -96,6 +105,11 @@
       &-content {
         h1 {
           font-size: 3rem;
+          margin-bottom: 0.75rem;
+        }
+
+        .location {
+          font-size: 0.85rem;
           margin-bottom: 2rem;
         }
 

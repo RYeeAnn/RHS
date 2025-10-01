@@ -9,6 +9,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero-content">
           <h1>{t('home.title')}</h1>
+          <p className="location">{t('home.location')}</p>
           <a href="tel:+16049312885" className="cta-button">
             <span className="phone-icon">📞</span>
             {t('home.cta')}

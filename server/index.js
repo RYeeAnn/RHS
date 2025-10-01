@@ -37,7 +37,7 @@ app.post('/api/contact', async (req, res) => {
     // Send email using Resend
     const data = await resend.emails.send({
       from: 'Ruby\'s Hair Salon <onboarding@resend.dev>', // Update this with your verified domain
-      to: ['ryeean16@gmail.com'], // Update with the salon's email
+      to: ['ryeean16@gmail.com'], // Update with the Ruby's email
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">

@@ -6,6 +6,7 @@
   },
   "home": {
     "title": "Ruby's Hair Salon",
+    "location": "Located in Coquitlam, BC",
     "cta": "Call: (604) 931-2885",
     "welcome": "Welcome to Ruby's",
     "appointmentNote": "By appointment only • Accepting new clients"
@@ -28,7 +29,7 @@
       "emailPlaceholder": "your@email.com",
       "phone": "Phone Number",
       "phonePlaceholder": "(604) 123-4567",
-      "message": "Your Question",
+      "message": "Booking Request or Questions",
       "messagePlaceholder": "How can we help you?",
       "submit": "Send Message",
       "sending": "Sending...",
@@ -39,7 +40,7 @@
       "phone": "Phone",
       "callAnytime": "Call anytime",
       "location": "Location",
-      "address": "Given after booking",
+      "address": "Coquitlam, BC",
       "byAppt": "By appointment only",
       "hours": "Hours",
       "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
