@@ -5,10 +5,10 @@
     "contact": "联系我们"
   },
   "home": {
-    "title": "Ruby发廊",
-    "location": "位于卑诗省高贵林市",
+    "title": "Ruby's Hair Salon",
+    "location": "位于 Coquitlam, BC",
     "cta": "致电：(604) 931-2885",
-    "welcome": "欢迎来到Ruby发廊",
+    "welcome": "欢迎来到 Ruby's Hair Salon",
     "appointmentNote": "仅限预约 • 接受新客户"
   },
   "services": {
@@ -49,7 +49,7 @@
     }
   },
   "footer": {
-    "brand": "Ruby发廊",
+    "brand": "Ruby's Hair Salon",
     "tagline": "护发与造型",
     "contact": "联系",
     "byAppt": "仅限预约",
@@ -58,6 +58,6 @@
     "weekdaysHours": "上午9:00 - 下午5:00",
     "saturday": "周六",
     "saturdayHours": "上午9:00 - 下午2:00",
-    "copyright": "Ruby发廊。版权所有。"
+    "copyright": "Ruby's Hair Salon。版权所有。"
   }
 } 
