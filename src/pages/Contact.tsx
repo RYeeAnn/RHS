@@ -24,9 +24,10 @@ const Contact = () => {
     setStatus('sending');
 
     try {
-      const apiUrl = process.env.NODE_ENV === 'production' 
-        ? '/api/contact' 
-        : 'http://localhost:5001/api/contact';
+      // Use relative path in production, localhost in development
+      const isLocalhost = window.location.hostname === 'localhost' || 
+                          window.location.hostname === '127.0.0.1';
+      const apiUrl = isLocalhost ? 'http://localhost:5001/api/contact' : '/api/contact';
       
       const response = await fetch(apiUrl, {
         method: 'POST',
