@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "contact": "联系我们"
+  },
+  "home": {
+    "title": "Ruby发廊",
+    "cta": "致电：(604) 931-2885",
+    "welcome": "欢迎来到Ruby发廊",
+    "appointmentNote": "仅限预约 • 接受新客户"
+  },
+  "services": {
+    "title": "我们的服务",
+    "subtitle": "为您量身定制的全面护发服务",
+    "haircut": {
+      "title": "理发与造型",
+      "description": "根据您的独特特征和生活方式量身定制的专业剪发和造型。",
+      "price": "起价 $16"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "email": "电子邮件",
+      "emailPlaceholder": "your@email.com",
+      "phone": "电话号码",
+      "phonePlaceholder": "(604) 123-4567",
+      "message": "您的问题",
+      "messagePlaceholder": "我们能为您做什么？",
+      "submit": "发送消息",
+      "sending": "发送中...",
+      "success": "谢谢！我们会尽快回复您。",
+      "error": "发送失败，请重试。"
+    },
+    "info": {
+      "phone": "电话",
+      "callAnytime": "随时致电或发短信",
+      "location": "地址",
+      "address": "预约后提供",
+      "byAppt": "仅限预约",
+      "hours": "营业时间",
+      "weekdays": "周一至周五：上午9:00 - 下午5:00",
+      "saturday": "周六：上午9:00 - 下午2:00",
+      "sunday": "周日：休息"
+    }
+  },
+  "footer": {
+    "brand": "Ruby发廊",
+    "tagline": "护发与造型",
+    "contact": "联系",
+    "byAppt": "仅限预约",
+    "hours": "营业时间",
+    "weekdays": "周一至周五",
+    "weekdaysHours": "上午9:00 - 下午5:00",
+    "saturday": "周六",
+    "saturdayHours": "上午9:00 - 下午2:00",
+    "copyright": "Ruby发廊。版权所有。"
+  }
+} 

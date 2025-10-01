@@ -1,0 +1,4 @@
+[dotenv@17.2.3] injecting env (1) from .env -- tip: 📡 add observability to secrets: https://dotenvx.com/ops
+Server is running on port 5001
+Resend API Key loaded: Yes
+Email sent successfully: { data: { id: '6058d030-6fa8-4c68-aa85-43f9ee9970de' }, error: null }

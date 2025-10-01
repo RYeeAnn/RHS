@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Ruby's Hair Salon",
+    "cta": "Call: (604) 931-2885",
+    "welcome": "Welcome to Ruby's",
+    "appointmentNote": "By appointment only • Accepting new clients"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive hair care tailored to you",
+    "haircut": {
+      "title": "Haircut & Styling",
+      "description": "Expert cuts and styling tailored to your unique features and lifestyle.",
+      "price": "Starting at $16"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(604) 123-4567",
+      "message": "Your Question",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! We'll get back to you soon.",
+      "error": "Failed to send message. Please try again."
+    },
+    "info": {
+      "phone": "Phone",
+      "callAnytime": "Call anytime",
+      "location": "Location",
+      "address": "Given after booking",
+      "byAppt": "By appointment only",
+      "hours": "Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
+      "saturday": "Saturday: 9:00 AM - 2:00 PM",
+      "sunday": "Sunday: Closed"
+    }
+  },
+  "footer": {
+    "brand": "Ruby's Hair Salon",
+    "tagline": "Hair care and styling",
+    "contact": "Contact",
+    "byAppt": "By appointment only",
+    "hours": "Hours",
+    "weekdays": "Monday - Friday",
+    "weekdaysHours": "9:00 AM - 5:00 PM",
+    "saturday": "Saturday",
+    "saturdayHours": "9:00 AM - 2:00 PM",
+    "copyright": "Ruby's Hair Salon. All rights reserved."
+  }
+} 

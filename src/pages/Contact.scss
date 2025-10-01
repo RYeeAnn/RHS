@@ -1,0 +1,240 @@
+.contact {
+  padding: 6rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f7f9fa;
+
+  &-header {
+    text-align: center;
+    margin-bottom: 5rem;
+
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.5rem;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #666;
+      font-weight: 300;
+      letter-spacing: 1px;
+    }
+  }
+
+  &-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  &-form-section {
+    .contact-form {
+      background: #ffffff;
+      padding: 3rem;
+      border: 1px solid #D5E0E5;
+
+      .form-group {
+        margin-bottom: 1.5rem;
+
+        label {
+          display: block;
+          margin-bottom: 0.5rem;
+          color: #1a1a1a;
+          font-weight: 400;
+          font-size: 0.875rem;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+
+        input,
+        textarea {
+          width: 100%;
+          padding: 1rem;
+          border: 1px solid #D5E0E5;
+          border-radius: 0;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 0.95rem;
+          font-weight: 300;
+          background: #f7f9fa;
+          transition: all 0.3s ease;
+
+          &:focus {
+            outline: none;
+            border-color: #1a1a1a;
+            background: #ffffff;
+          }
+
+          &::placeholder {
+            color: #a8b8c0;
+            font-weight: 300;
+          }
+        }
+
+        textarea {
+          resize: vertical;
+          min-height: 120px;
+        }
+      }
+
+      .form-message {
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 500;
+
+        &.success {
+          background-color: #d4edda;
+          color: #155724;
+          border: 1px solid #c3e6cb;
+        }
+
+        &.error {
+          background-color: #f8d7da;
+          color: #721c24;
+          border: 1px solid #f5c6cb;
+        }
+      }
+
+      .submit-button {
+        width: 100%;
+        padding: 1rem 2rem;
+        background-color: #1a1a1a;
+        color: white;
+        border: 2px solid #1a1a1a;
+        font-size: 0.875rem;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover:not(:disabled) {
+          background-color: transparent;
+          color: #1a1a1a;
+        }
+
+        &:disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+        }
+      }
+    }
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .info-card {
+      background: #ffffff;
+      padding: 2rem;
+      border: 1px solid #D5E0E5;
+      text-align: center;
+      transition: all 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 8px 20px rgba(213, 224, 229, 0.4);
+      }
+
+      .icon {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        filter: grayscale(10%) opacity(0.85);
+      }
+
+      h3 {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 1.4rem;
+        color: #1a1a1a;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
+      .contact-link {
+        color: #1a1a1a;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 1rem;
+        transition: opacity 0.3s ease;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      .address {
+        color: #4a4a4a;
+        line-height: 1.8;
+        margin: 0.5rem 0;
+        font-weight: 300;
+      }
+
+      .note {
+        color: #666;
+        font-size: 0.875rem;
+        margin-top: 0.75rem;
+        font-weight: 300;
+      }
+
+      .hours {
+        p {
+          color: #4a4a4a;
+          margin: 0.25rem 0;
+          font-size: 0.875rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 968px) {
+    &-content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+
+    &-header {
+      margin-bottom: 2.5rem;
+
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+
+    &-content {
+      grid-template-columns: 1fr;
+    }
+
+    &-form-section {
+      .contact-form {
+        padding: 2rem 1.5rem;
+      }
+    }
+
+    &-info {
+      gap: 1.25rem;
+
+      .info-card {
+        padding: 1.5rem;
+      }
+    }
+  }
+} 
