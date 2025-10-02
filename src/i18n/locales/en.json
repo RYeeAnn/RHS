@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "services": "Services",
+    "appointment": "Appointment",
     "contact": "Contact"
   },
   "home": {
@@ -19,6 +20,34 @@
       "title": "Haircut & Styling",
       "description": "Expert cuts and styling tailored to your unique features and lifestyle.",
       "price": "Starting at $16"
+    }
+  },
+  "appointment": {
+    "title": "Request an Appointment",
+    "subtitle": "Fill out the form below and we'll get back to you to confirm your booking",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(604) 123-4567",
+      "service": "Service Type",
+      "servicePlaceholder": "Select a service",
+      "serviceHaircut": "Haircut & Styling",
+      "date": "Preferred Date",
+      "datePlaceholder": "MM/DD/YYYY",
+      "time": "Preferred Time",
+      "timePlaceholder": "Select a time",
+      "notes": "Additional Notes",
+      "notesPlaceholder": "Any special requests or notes?",
+      "submit": "Request Appointment",
+      "sending": "Sending...",
+      "success": "Thank you! We'll contact you soon to confirm your appointment.",
+      "error": "Failed to send request. Please try again or call us directly."
+    },
+    "note": "We'll review your request and confirm availability within 24 hours",
+    "phoneInfo": {
+      "title": "Prefer to Call?",
+      "description": "Calling is the best way to book your appointment. If we can't answer, please use this form to request a booking and we'll get back to you as soon as possible."
     }
   },
   "contact": {
@@ -61,4 +90,4 @@
     "saturdayHours": "9:00 AM - 2:00 PM",
     "copyright": "Ruby's Hair Salon. All rights reserved."
   }
-} 
+}

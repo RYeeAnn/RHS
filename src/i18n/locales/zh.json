@@ -2,6 +2,7 @@
   "nav": {
     "home": "首页",
     "services": "服务",
+    "appointment": "预约",
     "contact": "联系我们"
   },
   "home": {
@@ -19,6 +20,34 @@
       "title": "理发与造型",
       "description": "根据您的独特特征和生活方式量身定制的专业剪发和造型。",
       "price": "起价 $16"
+    }
+  },
+  "appointment": {
+    "title": "预约服务",
+    "subtitle": "填写下面的表格，我们将尽快回复您确认预约",
+    "form": {
+      "name": "姓名",
+      "namePlaceholder": "您的姓名",
+      "phone": "电话号码",
+      "phonePlaceholder": "(604) 123-4567",
+      "service": "服务类型",
+      "servicePlaceholder": "选择服务",
+      "serviceHaircut": "理发与造型",
+      "date": "首选日期",
+      "datePlaceholder": "月/日/年",
+      "time": "首选时间",
+      "timePlaceholder": "选择时间",
+      "notes": "附加说明",
+      "notesPlaceholder": "有什么特殊要求或说明吗？",
+      "submit": "提交预约请求",
+      "sending": "发送中...",
+      "success": "谢谢！我们会尽快联系您确认预约。",
+      "error": "发送失败，请重试或直接致电我们。"
+    },
+    "note": "我们将审查您的请求并在24小时内确认可用性",
+    "phoneInfo": {
+      "title": "更喜欢打电话？",
+      "description": "打电话是预约的最佳方式。如果我们无法接听，请使用此表格请求预约，我们会尽快回复您。"
     }
   },
   "contact": {
@@ -61,4 +90,4 @@
     "saturdayHours": "上午9:00 - 下午2:00",
     "copyright": "Ruby's Hair Salon。版权所有。"
   }
-} 
+}

@@ -33,13 +33,13 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const { name, email, phone, message } = req.body;
+    const { name, phone, service, date, time, notes } = req.body;
 
     // Validate required fields
-    if (!name || !email || !message) {
+    if (!name || !phone || !service || !date || !time) {
       return res.status(400).json({ 
         error: 'Missing required fields',
-        details: 'Name, email, and message are required' 
+        details: 'Name, phone, service, date, and time are required' 
       });
     }
 
@@ -47,20 +47,24 @@ module.exports = async (req, res) => {
     const data = await resend.emails.send({
       from: 'Ruby\'s Hair Salon <onboarding@resend.dev>', // Update this with your verified domain
       to: ['ryeean16@gmail.com'], // Your email
-      subject: `New Contact Form Submission from ${name}`,
+      subject: `New Appointment Request from ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #6B8494;">New Contact Form Submission</h2>
+          <h2 style="color: #d4a5a5;">New Appointment Request</h2>
           <div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px;">
             <p><strong>Name:</strong> ${name}</p>
-            <p><strong>Email:</strong> ${email}</p>
-            <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
+            <p><strong>Phone:</strong> ${phone}</p>
+            <p><strong>Service:</strong> ${service}</p>
+            <p><strong>Preferred Date:</strong> ${date}</p>
+            <p><strong>Preferred Time:</strong> ${time}</p>
+            ${notes ? `
             <hr style="border: 1px solid #e0e0e0;" />
-            <p><strong>Message:</strong></p>
-            <p style="white-space: pre-wrap;">${message}</p>
+            <p><strong>Additional Notes:</strong></p>
+            <p style="white-space: pre-wrap;">${notes}</p>
+            ` : ''}
           </div>
           <p style="color: #666; font-size: 12px; margin-top: 20px;">
-            This email was sent from the Ruby's Hair Salon contact form.
+            This email was sent from the Ruby's Hair Salon appointment request form.
           </p>
         </div>
       `,
@@ -75,18 +79,18 @@ module.exports = async (req, res) => {
       });
     }
 
-    console.log('Email sent successfully:', data);
+    console.log('Appointment email sent successfully:', data);
 
     return res.status(200).json({ 
       success: true, 
-      message: 'Your message has been sent successfully!',
+      message: 'Your appointment request has been sent successfully!',
       emailId: data.id
     });
 
   } catch (error) {
-    console.error('Error sending email:', error);
+    console.error('Error sending appointment email:', error);
     return res.status(500).json({ 
-      error: 'Failed to send message',
+      error: 'Failed to send appointment request',
       details: error.message 
     });
   }

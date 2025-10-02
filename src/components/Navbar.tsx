@@ -52,6 +52,15 @@ const Navbar = () => {
             </li>
             <li>
               <Link 
+                to="/appointment" 
+                onClick={closeMenu}
+                className={location.pathname === '/appointment' ? 'active' : ''}
+              >
+                {t('nav.appointment')}
+              </Link>
+            </li>
+            <li>
+              <Link 
                 to="/contact" 
                 onClick={closeMenu}
                 className={location.pathname === '/contact' ? 'active' : ''}
@@ -86,4 +95,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar; 
+export default Navbar;

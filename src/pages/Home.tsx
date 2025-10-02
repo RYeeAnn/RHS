@@ -16,7 +16,7 @@ const Home = () => {
               <span className="phone-icon">📞</span>
               {t('home.cta')}
             </a>
-            <Link to="/contact" className="cta-button secondary">
+            <Link to="/appointment" className="cta-button secondary">
               <span className="icon">✉️</span>
               {t('home.bookAppointment')}
             </Link>
@@ -36,4 +36,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;
