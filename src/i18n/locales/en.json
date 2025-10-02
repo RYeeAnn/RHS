@@ -14,7 +14,7 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive hair care tailored to you",
+    "subtitle": "Comprehensive haircuts tailored to you",
     "haircut": {
       "title": "Haircut & Styling",
       "description": "Expert cuts and styling tailored to your unique features and lifestyle.",
@@ -51,7 +51,7 @@
   },
   "footer": {
     "brand": "Ruby's Hair Salon",
-    "tagline": "Hair care and styling",
+    "tagline": "Haircut and styling",
     "contact": "Contact",
     "byAppt": "By appointment only",
     "hours": "Hours",
