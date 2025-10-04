@@ -7,16 +7,21 @@ const Home = () => {
   
   return (
     <div className="home">
-      <section className="hero">
+      <section 
+        className="hero" 
+        style={{
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/salon.JPG')`
+        }}
+      >
         <div className="hero-content">
           <h1>{t('home.title')}</h1>
           <p className="location">{t('home.location')}</p>
           <div className="cta-buttons">
-            <a href="tel:+16049312885" className="cta-button primary">
+            <a href="tel:+16049312885" className="cta-button secondary">
               <span className="phone-icon">📞</span>
               {t('home.cta')}
             </a>
-            <a href="sms:+16047280705" className="cta-button primary">
+            <a href="sms:+16047280705" className="cta-button secondary">
               <span className="phone-icon">💬</span>
               {t('home.ctaText')}
             </a>

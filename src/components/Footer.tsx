@@ -20,7 +20,7 @@ const Footer = () => {
                 (604) 931-2885
               </a>
               <a href="sms:+16047280705" className="phone-link">
-                Text/WhatsApp: (604) 728-0705
+                Text: (604) 728-0705
               </a>
             </div>
           </div>
