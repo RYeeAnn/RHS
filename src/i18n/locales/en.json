@@ -9,17 +9,19 @@
     "title": "Ruby's Hair Salon",
     "location": "Located in Coquitlam, BC",
     "cta": "Call: (604) 931-2885",
+    "ctaText": "Text/WhatsApp: (604) 728-0705",
     "bookAppointment": "Book Appointment",
     "welcome": "Welcome to Ruby's Hair Salon",
     "appointmentNote": "By appointment only • Accepting new clients"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive haircuts tailored to you",
+    "subtitle": "Professional haircuts tailored to you",
     "haircut": {
-      "title": "Haircut & Styling",
+      "title": "Haircut & Shampoo",
       "description": "Expert cuts and styling tailored to your unique features and lifestyle.",
-      "price": "Starting at $16"
+      "priceMen": "Men: $13 (Haircut & Shampoo)",
+      "priceWomen": "Women: $13 (Haircut)"
     }
   },
   "appointment": {
@@ -32,7 +34,7 @@
       "phonePlaceholder": "(604) 123-4567",
       "service": "Service Type",
       "servicePlaceholder": "Select a service",
-      "serviceHaircut": "Haircut & Styling",
+      "serviceHaircut": "Haircut & Shampoo",
       "date": "Preferred Date",
       "datePlaceholder": "MM/DD/YYYY",
       "time": "Preferred Time",
@@ -46,8 +48,8 @@
     },
     "note": "We'll review your request and confirm availability within 24 hours",
     "phoneInfo": {
-      "title": "Prefer to Call?",
-      "description": "Calling is the best way to book your appointment. If we can't answer, please use this form to request a booking and we'll get back to you as soon as possible."
+      "title": "Prefer to Call or Text?",
+      "description": "Calling or texting is the best way to book your appointment. If we can't answer, please use this form to request a booking and we'll get back to you as soon as possible."
     }
   },
   "contact": {
@@ -59,8 +61,8 @@
       "emailPlaceholder": "your@email.com",
       "phone": "Phone Number",
       "phonePlaceholder": "(604) 123-4567",
-      "message": "Questions or Comments",
-      "messagePlaceholder": "How can we help you today?",
+      "message": "Booking Request or Questions",
+      "messagePlaceholder": "How can we help you?",
       "submit": "Send Message",
       "sending": "Sending...",
       "success": "Thank you! We'll get back to you soon.",
@@ -68,13 +70,15 @@
     },
     "info": {
       "phone": "Phone",
+      "phoneText": "Text/WhatsApp",
       "callAnytime": "Call anytime",
+      "textAnytime": "Text or WhatsApp anytime",
       "location": "Location",
       "address": "Coquitlam, BC",
       "byAppt": "By appointment only",
       "hours": "Hours",
-      "weekdays": "Monday - Friday: 9:00 AM - 5:00 PM",
-      "saturday": "Saturday: 9:00 AM - 2:00 PM",
+      "weekdays": "Monday - Friday: 9:30 AM - 3:00 PM",
+      "saturday": "Saturday: 9:30 AM - 3:00 PM",
       "sunday": "Sunday: Closed"
     }
   },
@@ -85,9 +89,9 @@
     "byAppt": "By appointment only",
     "hours": "Hours",
     "weekdays": "Monday - Friday",
-    "weekdaysHours": "9:00 AM - 5:00 PM",
+    "weekdaysHours": "9:30 AM - 3:00 PM",
     "saturday": "Saturday",
-    "saturdayHours": "9:00 AM - 2:00 PM",
+    "saturdayHours": "9:30 AM - 3:00 PM",
     "copyright": "Ruby's Hair Salon. All rights reserved."
   }
 }

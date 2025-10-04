@@ -9,17 +9,19 @@
     "title": "Ruby's Hair Salon",
     "location": "位于 Coquitlam, BC",
     "cta": "致电：(604) 931-2885",
+    "ctaText": "短信/微信：(604) 728-0705",
     "bookAppointment": "预约服务",
     "welcome": "欢迎来到 Ruby's Hair Salon",
     "appointmentNote": "仅限预约 • 接受新客户"
   },
   "services": {
     "title": "我们的服务",
-    "subtitle": "为您量身定制的全面护发服务",
+    "subtitle": "为您量身定制的专业理发服务",
     "haircut": {
-      "title": "理发与造型",
+      "title": "理发与洗发",
       "description": "根据您的独特特征和生活方式量身定制的专业剪发和造型。",
-      "price": "起价 $16"
+      "priceMen": "男士：$13（理发与洗发）",
+      "priceWomen": "女士：$13（理发）"
     }
   },
   "appointment": {
@@ -32,7 +34,7 @@
       "phonePlaceholder": "(604) 123-4567",
       "service": "服务类型",
       "servicePlaceholder": "选择服务",
-      "serviceHaircut": "理发与造型",
+      "serviceHaircut": "理发与洗发",
       "date": "首选日期",
       "datePlaceholder": "月/日/年",
       "time": "首选时间",
@@ -46,8 +48,8 @@
     },
     "note": "我们将审查您的请求并在24小时内确认可用性",
     "phoneInfo": {
-      "title": "更喜欢打电话？",
-      "description": "打电话是预约的最佳方式。如果我们无法接听，请使用此表格请求预约，我们会尽快回复您。"
+      "title": "更喜欢打电话或发短信？",
+      "description": "打电话或发短信是预约的最佳方式。如果我们无法接听，请使用此表格请求预约，我们会尽快回复您。"
     }
   },
   "contact": {
@@ -68,13 +70,15 @@
     },
     "info": {
       "phone": "电话",
-      "callAnytime": "随时致电或发短信",
+      "phoneText": "短信/微信",
+      "callAnytime": "随时致电",
+      "textAnytime": "随时发短信或微信",
       "location": "地址",
       "address": "Coquitlam, BC",
       "byAppt": "仅限预约",
       "hours": "营业时间",
-      "weekdays": "周一至周五：上午9:00 - 下午5:00",
-      "saturday": "周六：上午9:00 - 下午2:00",
+      "weekdays": "周一至周五：上午9:30 - 下午3:00",
+      "saturday": "周六：上午9:30 - 下午3:00",
       "sunday": "周日：休息"
     }
   },
@@ -85,9 +89,9 @@
     "byAppt": "仅限预约",
     "hours": "营业时间",
     "weekdays": "周一至周五",
-    "weekdaysHours": "上午9:00 - 下午5:00",
+    "weekdaysHours": "上午9:30 - 下午3:00",
     "saturday": "周六",
-    "saturdayHours": "上午9:00 - 下午2:00",
+    "saturdayHours": "上午9:30 - 下午3:00",
     "copyright": "Ruby's Hair Salon。版权所有。"
   }
 }

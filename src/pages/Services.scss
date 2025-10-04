@@ -62,6 +62,12 @@
       font-weight: 300;
     }
 
+    .service-pricing {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
     .service-price {
       color: #1a1a1a;
       font-weight: 500;

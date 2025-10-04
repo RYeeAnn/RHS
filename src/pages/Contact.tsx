@@ -145,6 +145,15 @@ const Contact = () => {
           </div>
 
           <div className="info-card">
+            <div className="icon">💬</div>
+            <h3>{t('contact.info.phoneText')}</h3>
+            <a href="sms:+16047280705" className="contact-link">
+              (604) 728-0705
+            </a>
+            <p className="note">{t('contact.info.textAnytime')}</p>
+          </div>
+
+          <div className="info-card">
             <div className="icon">📍</div>
             <h3>{t('contact.info.location')}</h3>
             <p className="address">

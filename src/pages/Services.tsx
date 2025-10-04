@@ -15,7 +15,10 @@ const Services = () => {
         <div className="service-card">
           <h3>{t('services.haircut.title')}</h3>
           <p className="service-description">{t('services.haircut.description')}</p>
-          <p className="service-price">{t('services.haircut.price')}</p>
+          <div className="service-pricing">
+            <p className="service-price">{t('services.haircut.priceMen')}</p>
+            <p className="service-price">{t('services.haircut.priceWomen')}</p>
+          </div>
         </div>
       </div>
     </div>

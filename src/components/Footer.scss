@@ -53,11 +53,19 @@
       font-weight: 300;
     }
 
+    .phone-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
     .phone-link {
       color: #D5E0E5;
       text-decoration: none;
       font-weight: 400;
+      font-size: 0.875rem;
       transition: color 0.3s ease;
+      display: block;
 
       &:hover {
         color: #e8eff2;

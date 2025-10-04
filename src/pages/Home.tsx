@@ -16,6 +16,10 @@ const Home = () => {
               <span className="phone-icon">📞</span>
               {t('home.cta')}
             </a>
+            <a href="sms:+16047280705" className="cta-button primary">
+              <span className="phone-icon">💬</span>
+              {t('home.ctaText')}
+            </a>
             <Link to="/appointment" className="cta-button secondary">
               <span className="icon">✉️</span>
               {t('home.bookAppointment')}

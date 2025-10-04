@@ -180,9 +180,14 @@ const Appointment = () => {
           <div className="info-card">
             <div className="icon">📞</div>
             <h3>{t('appointment.phoneInfo.title')}</h3>
-            <a href="tel:+16049312885" className="contact-link">
-              (604) 931-2885
-            </a>
+            <div className="phone-links">
+              <a href="tel:+16049312885" className="contact-link">
+                (604) 931-2885
+              </a>
+              <a href="sms:+16047280705" className="contact-link">
+                Text/WhatsApp: (604) 728-0705
+              </a>
+            </div>
             <p className="note">{t('appointment.phoneInfo.description')}</p>
           </div>
 

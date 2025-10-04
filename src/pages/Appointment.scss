@@ -180,12 +180,20 @@
         text-transform: uppercase;
       }
 
+      .phone-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+
       .contact-link {
         color: #1a1a1a;
         text-decoration: none;
         font-weight: 400;
         font-size: 1rem;
         transition: opacity 0.3s ease;
+        display: block;
 
         &:hover {
           opacity: 0.7;
