@@ -15,18 +15,20 @@
     "appointmentNote": "By appointment only • Accepting new clients"
   },
   "services": {
-    "title": "Our Services",
+    "title": "My Services",
     "subtitle": "Professional haircuts tailored to you",
     "haircut": {
       "title": "Haircut & Shampoo",
       "description": "Expert cuts and styling tailored to your unique features and lifestyle.",
-      "priceMen": "Men: $13 (Haircut & Shampoo)",
-      "priceWomen": "Women: $13 (Haircut)"
+      "priceMen": "Men:",
+      "priceMenDetails": "$13 (Haircut & Shampoo)",
+      "priceWomen": "Women:",
+      "priceWomenDetails": "$13 (Haircut)"
     }
   },
   "appointment": {
     "title": "Request an Appointment",
-    "subtitle": "Fill out the form below and we'll get back to you to confirm your booking",
+    "subtitle": "Fill out the form below and I'll get back to you to confirm your booking",
     "form": {
       "name": "Name",
       "namePlaceholder": "Your name",
@@ -43,13 +45,13 @@
       "notesPlaceholder": "Any special requests or notes?",
       "submit": "Request Appointment",
       "sending": "Sending...",
-      "success": "Thank you! We'll contact you soon to confirm your appointment.",
-      "error": "Failed to send request. Please try again or call us directly."
+      "success": "Thank you! I'll contact you soon to confirm your appointment.",
+      "error": "Failed to send request. Please try again or call me directly."
     },
-    "note": "We'll review your request and confirm availability within 24 hours",
+    "note": "I'll review your request and confirm availability within 24 hours",
     "phoneInfo": {
       "title": "Prefer to Call or Text?",
-      "description": "Calling or texting is the best way to book your appointment. If we can't answer, please use this form to request a booking and we'll get back to you as soon as possible."
+      "description": "Calling or texting is the best way to book your appointment. If I can't answer, please use this form to request a booking and I'll get back to you as soon as possible."
     }
   },
   "contact": {
@@ -62,10 +64,10 @@
       "phone": "Phone Number",
       "phonePlaceholder": "(604) 123-4567",
       "message": "Booking Request or Questions",
-      "messagePlaceholder": "How can we help you?",
+      "messagePlaceholder": "How can I help you?",
       "submit": "Send Message",
       "sending": "Sending...",
-      "success": "Thank you! We'll get back to you soon.",
+      "success": "Thank you! I'll get back to you soon.",
       "error": "Failed to send message. Please try again."
     },
     "info": {

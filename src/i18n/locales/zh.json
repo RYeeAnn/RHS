@@ -15,18 +15,20 @@
     "appointmentNote": "仅限预约 • 接受新客户"
   },
   "services": {
-    "title": "我们的服务",
+    "title": "我的服务",
     "subtitle": "为您量身定制的专业理发服务",
     "haircut": {
       "title": "理发与洗发",
       "description": "根据您的独特特征和生活方式量身定制的专业剪发和造型。",
-      "priceMen": "男士：$13（理发与洗发）",
-      "priceWomen": "女士：$13（剪发）"
+      "priceMen": "男士：",
+      "priceMenDetails": "$13（理发与洗发）",
+      "priceWomen": "女士：",
+      "priceWomenDetails": "$13（剪发）"
     }
   },
   "appointment": {
     "title": "预约服务",
-    "subtitle": "填写下面的表格，我们将尽快回复您确认预约",
+    "subtitle": "填写下面的表格，我会尽快回复您确认预约",
     "form": {
       "name": "姓名",
       "namePlaceholder": "您的姓名",
@@ -43,17 +45,17 @@
       "notesPlaceholder": "有什么特殊要求或说明吗？",
       "submit": "提交预约请求",
       "sending": "发送中...",
-      "success": "谢谢！我们会尽快联系您确认预约。",
-      "error": "发送失败，请重试或直接致电我们。"
+      "success": "谢谢！我会尽快联系您确认预约。",
+      "error": "发送失败，请重试或直接致电我。"
     },
-    "note": "我们将审查您的请求并在24小时内确认可用性",
+    "note": "我会审查您的请求并在24小时内确认可用性",
     "phoneInfo": {
       "title": "更喜欢打电话或发短信？",
-      "description": "打电话或发短信是预约的最佳方式。如果我们无法接听，请使用此表格请求预约，我们会尽快回复您。"
+      "description": "打电话或发短信是预约的最佳方式。如果我无法接听，请使用此表格请求预约，我会尽快回复您。"
     }
   },
   "contact": {
-    "title": "联系我们",
+    "title": "联系我",
     "form": {
       "name": "姓名",
       "namePlaceholder": "您的姓名",
@@ -62,10 +64,10 @@
       "phone": "电话号码",
       "phonePlaceholder": "(604) 123-4567",
       "message": "问题或意见",
-      "messagePlaceholder": "我们今天能为您做什么？",
+      "messagePlaceholder": "我今天能为您做什么？",
       "submit": "发送消息",
       "sending": "发送中...",
-      "success": "谢谢！我们会尽快回复您。",
+      "success": "谢谢！我会尽快回复您。",
       "error": "发送失败，请重试。"
     },
     "info": {
