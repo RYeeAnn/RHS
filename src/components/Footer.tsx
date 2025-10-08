@@ -24,6 +24,10 @@ const Footer = () => {
               </a>
             </div>
           </div>
+          <div className="footer-location">
+            <h4>{t('footer.location')}</h4>
+            <p>{t('footer.locationInfo')}</p>
+          </div>
           <div className="footer-hours">
             <h4>{t('footer.hours')}</h4>
             <p>{t('footer.weekdays')}</p>

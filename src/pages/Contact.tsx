@@ -159,7 +159,7 @@ const Contact = () => {
             <p className="address">
               {t('contact.info.address')}
             </p>
-            <p className="note">{t('contact.info.byAppt')}</p>
+            <p className="note">{t('contact.info.locationNote')}</p>
           </div>
 
           <div className="info-card">
