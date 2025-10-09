@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Navbar.scss';
@@ -6,10 +6,27 @@ import './Navbar.scss';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const [currentLang, setCurrentLang] = useState(i18n.language);
   const location = useLocation();
 
+  useEffect(() => {
+    // Ensure we sync with i18n's actual language
+    setCurrentLang(i18n.language);
+    
+    // Listen for language changes
+    const handleLanguageChange = (lng: string) => {
+      setCurrentLang(lng);
+    };
+    
+    i18n.on('languageChanged', handleLanguageChange);
+    
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange);
+    };
+  }, [i18n]);
+
   const toggleLanguage = () => {
-    const newLang = i18n.language === 'en' ? 'zh' : 'en';
+    const newLang = currentLang === 'en' ? 'zh' : 'en';
     i18n.changeLanguage(newLang);
   };
 
@@ -70,13 +87,13 @@ const Navbar = () => {
             </li>
             <li className="mobile-language-toggle">
               <button onClick={toggleLanguage} className="language-toggle-mobile">
-                {i18n.language === 'en' ? '中文 Chinese' : 'EN English'}
+                {currentLang === 'en' ? '中文 Chinese' : 'EN English'}
               </button>
             </li>
           </ul>
 
           <button onClick={toggleLanguage} className="language-toggle desktop-only">
-            {i18n.language === 'en' ? '中文' : 'EN'}
+            {currentLang === 'en' ? '中文' : 'EN'}
           </button>
 
           <button 
