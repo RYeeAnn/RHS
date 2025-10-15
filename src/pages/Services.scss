@@ -1,84 +1,93 @@
 .services {
-  padding: 6rem 2rem;
-  max-width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
   margin: 0 auto;
   background-color: #f7f9fa;
 
-  &-header {
+  &-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex: 1;
+    justify-content: center;
+  }
+
+  .service-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    margin-bottom: 5rem;
+    padding: 0 1rem;
 
-    h1 {
+    .service-title {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 3.5rem;
+      font-size: 2.5rem;
       color: #1a1a1a;
-      margin-bottom: 1.5rem;
-      font-weight: 500;
-      letter-spacing: 3px;
-      text-transform: uppercase;
-    }
-
-    p {
-      font-size: 1rem;
-      color: #666;
-      font-weight: 300;
+      margin-bottom: 2.5rem;
+      font-weight: 400;
       letter-spacing: 1px;
-    }
-  }
-
-  &-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
-  }
-
-  .service-card {
-    background: #ffffff;
-    padding: 3rem;
-    border: 1px solid #D5E0E5;
-    transition: all 0.3s ease;
-    text-align: center;
-
-    &:hover {
-      box-shadow: 0 8px 25px rgba(213, 224, 229, 0.4);
-    }
-
-    h3 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2rem;
-      color: #1a1a1a;
-      margin-bottom: 1.5rem;
-      font-weight: 500;
-      letter-spacing: 2px;
       text-transform: uppercase;
+      position: relative;
+      
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 1px;
+        background-color: #D5E0E5;
+      }
     }
 
     .service-description {
       color: #4a4a4a;
-      line-height: 2;
-      margin-bottom: 2rem;
-      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 3rem;
+      font-size: 1rem;
       font-weight: 300;
+      max-width: 500px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .service-pricing {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 1.5rem;
+      width: 100%;
+      max-width: 400px;
     }
 
     .service-price {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 0;
+      border-bottom: 1px solid #f0f0f0;
       color: #1a1a1a;
-      font-weight: 500;
+      font-weight: 400;
       font-size: 1.1rem;
-      margin: 0;
-      letter-spacing: 1px;
+      letter-spacing: 0.5px;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      .price-label {
+        font-weight: 500;
+      }
 
       .price-details {
         font-weight: 400;
         font-style: italic;
         font-size: 0.95rem;
+        color: #666;
       }
     }
   }
@@ -117,31 +126,79 @@
   }
 
   @media (max-width: 768px) {
+    padding: 3rem 1rem;
+    min-height: 100vh;
+
+    &-content {
+      gap: 2.5rem;
+    }
+
+    .service-section {
+      padding: 0 0.5rem;
+
+      .service-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .service-description {
+        margin-bottom: 2.5rem;
+        font-size: 0.95rem;
+      }
+
+      .service-pricing {
+        gap: 1.25rem;
+      }
+
+      .service-price {
+        padding: 1rem 0;
+        font-size: 1rem;
+        
+        .price-details {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
     padding: 2rem 1rem;
 
-    &-header {
-      margin-bottom: 2.5rem;
+    &-content {
+      gap: 2rem;
+    }
 
-      h1 {
-        font-size: 2.2rem;
+    .service-section {
+      .service-title {
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
       }
 
-      p {
-        font-size: 1rem;
+      .service-description {
+        margin-bottom: 2rem;
+        font-size: 0.9rem;
       }
-    }
 
-    &-grid {
-      grid-template-columns: 1fr;
-      gap: 1.5rem;
-    }
+      .service-pricing {
+        gap: 1rem;
+      }
 
-    .service-card {
-      padding: 2rem;
-    }
-
-    &-note {
-      padding: 2rem 1.5rem;
+      .service-price {
+        padding: 0.875rem 0;
+        font-size: 0.95rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.25rem;
+        
+        .price-label {
+          font-weight: 600;
+        }
+        
+        .price-details {
+          font-size: 0.85rem;
+          font-style: normal;
+        }
+      }
     }
   }
 } 

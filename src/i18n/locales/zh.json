@@ -19,7 +19,7 @@
     "subtitle": "为您量身定制的专业理发服务",
     "haircut": {
       "title": "理发与洗发",
-      "description": "根据您的独特特征和生活方式量身定制的专业剪发和造型。",
+      "description": "",
       "priceMen": "男士：",
       "priceMenDetails": "$13（理发与洗发）",
       "priceWomen": "女士：",
@@ -63,7 +63,7 @@
       "emailPlaceholder": "your@email.com",
       "phone": "电话号码",
       "phonePlaceholder": "(604) 123-4567",
-      "message": "问题或意见",
+      "message": "问题",
       "messagePlaceholder": "我今天能为您做什么？",
       "submit": "发送消息",
       "sending": "发送中...",
@@ -80,8 +80,8 @@
       "locationNote": "预约后提供",
       "byAppt": "仅限预约",
       "hours": "营业时间",
-      "weekdays": "周一至周五：上午9:30 - 下午3:00",
-      "saturday": "周六：上午9:30 - 下午3:00",
+      "weekdays": "周一至周六：上午9:30 - 下午3:00",
+      "saturday": "",
       "sunday": "周日：休息"
     }
   },

@@ -19,7 +19,7 @@
     "subtitle": "Professional haircuts tailored to you",
     "haircut": {
       "title": "Haircut & Shampoo",
-      "description": "Expert cuts and styling tailored to your unique features and lifestyle.",
+      "description": "",
       "priceMen": "Men:",
       "priceMenDetails": "$13 (Haircut & Shampoo)",
       "priceWomen": "Women:",
@@ -63,7 +63,7 @@
       "emailPlaceholder": "your@email.com",
       "phone": "Phone Number",
       "phonePlaceholder": "(604) 123-4567",
-      "message": "Booking Request or Questions",
+      "message": "Questions",
       "messagePlaceholder": "How can I help you?",
       "submit": "Send Message",
       "sending": "Sending...",
@@ -80,8 +80,8 @@
       "locationNote": "Given after appointment",
       "byAppt": "By appointment only",
       "hours": "Hours",
-      "weekdays": "Monday - Friday: 9:30 AM - 3:00 PM",
-      "saturday": "Saturday: 9:30 AM - 3:00 PM",
+      "weekdays": "Monday - Saturday: 9:30 AM - 3:00 PM",
+      "saturday": "",
       "sunday": "Sunday: Closed"
     }
   },
