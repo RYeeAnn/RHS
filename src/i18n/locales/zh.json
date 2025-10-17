@@ -50,7 +50,8 @@
     },
     "note": "我会审查您的请求并在24小时内确认可用性",
     "phoneInfo": {
-      "title": "更喜欢打电话或发短信？",
+      "title": "电话 / 短信",
+      "textWhatsApp": "短信/微信：",
       "description": "打电话或发短信是预约的最佳方式。如果我无法接听，请使用此表格请求预约，我会尽快回复您。"
     }
   },
@@ -90,6 +91,7 @@
     "tagline": "护发与造型",
     "contact": "联系",
     "byAppt": "仅限预约",
+    "textLabel": "短信：",
     "location": "地址",
     "locationInfo": "预约后提供",
     "hours": "营业时间",

@@ -50,7 +50,8 @@
     },
     "note": "I'll review your request and confirm availability within 24 hours",
     "phoneInfo": {
-      "title": "Prefer to Call or Text?",
+      "title": "Call / Text",
+      "textWhatsApp": "Text/WhatsApp:",
       "description": "Calling or texting is the best way to book your appointment. If I can't answer, please use this form to request a booking and I'll get back to you as soon as possible."
     }
   },
@@ -90,6 +91,7 @@
     "tagline": "Haircut and styling",
     "contact": "Contact",
     "byAppt": "By appointment only",
+    "textLabel": "Text:",
     "location": "Location",
     "locationInfo": "Given after appointment",
     "hours": "Hours",

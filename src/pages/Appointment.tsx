@@ -164,6 +164,8 @@ const Appointment = () => {
               </div>
             )}
 
+            <p className="appointment-note">{t('appointment.note')}</p>
+
             <button 
               type="submit" 
               className="submit-button"
@@ -178,23 +180,16 @@ const Appointment = () => {
 
         <div className="appointment-info">
           <div className="info-card">
-            <div className="icon">📞</div>
             <h3>{t('appointment.phoneInfo.title')}</h3>
             <div className="phone-links">
               <a href="tel:+16049312885" className="contact-link">
                 (604) 931-2885
               </a>
               <a href="sms:+16047280705" className="contact-link">
-                Text/WhatsApp: (604) 728-0705
+                {t('appointment.phoneInfo.textWhatsApp')} (604) 728-0705
               </a>
             </div>
             <p className="note">{t('appointment.phoneInfo.description')}</p>
-          </div>
-
-          <div className="info-card">
-            <div className="icon">ℹ️</div>
-            <h3>Note</h3>
-            <p className="note">{t('appointment.note')}</p>
           </div>
         </div>
       </div>
